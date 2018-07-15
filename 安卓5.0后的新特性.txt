@@ -1,0 +1,11 @@
+V7库Toolbar
+谷歌的v4库侧滑菜单DrawerLayout允许放入两个直接子控件，第一个显示在主屏中，第二个是侧滑
+谷歌自带的侧滑菜单页面NavigationView同样也有5.0的新特性
+CircleImageView是开源项目github实现图片圆形功能
+悬浮按钮FloatingActionButton
+提示工具Snackbar比Toast提示工具稍微好
+V7库的卡片布局CardViewcompile也是FrameLayout且具有阴影和圆角效果
+ 'com.android.support:cardview-v7:26.0.0-alpha1'
+CoordinatorLayout是加强版的FrameLayout,使用会使控件上移，确保不会被其他控件遮挡
+Glide是github开源的图片库，可加载本地图片，本地视频，网络图片，GIF图，它自身带有图片压缩功能不会担心内存溢出
+AppBarLayout它是一个垂直的LinearLayout，带有新特性理念，当其接收到滚动时间时，使得其子控件会被带动(上推隐藏或下拉显示)
